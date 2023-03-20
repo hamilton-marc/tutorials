@@ -1,1 +1,6 @@
 @import url('./main-layout.css');
+
+todo-view {
+  display: block;
+  padding: var(--lumo-space-m) var(--lumo-space-l); 
+}
