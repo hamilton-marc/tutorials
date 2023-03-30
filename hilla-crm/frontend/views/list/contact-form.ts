@@ -39,7 +39,9 @@ export class ContactForm extends View {
       <div class="flex gap-s">
         <vaadin-button theme="primary">Save</vaadin-button>
         <vaadin-button theme="error">Delete</vaadin-button>
-        <vaadin-button theme="tertiary">Cancel</vaadin-button>
+        <vaadin-button theme="tertiary" @click=${listViewStore.cancelEdit}>
+          Cancel
+        </vaadin-button>
       </div>
     `;
   }
