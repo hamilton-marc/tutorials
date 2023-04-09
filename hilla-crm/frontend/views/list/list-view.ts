@@ -1,5 +1,5 @@
 import { html } from 'lit';
-import { customElement } from 'lit/decorators';
+import { customElement } from 'lit/decorators.js';
 import { View } from '../../views/view';
 import '@vaadin/text-field';
 import '@vaadin/button';

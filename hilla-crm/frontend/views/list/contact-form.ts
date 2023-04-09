@@ -1,5 +1,5 @@
 import { html } from 'lit';
-import { customElement } from 'lit/decorators';
+import { customElement } from 'lit/decorators.js';
 import { View } from 'Frontend/views/view';
 import '@vaadin/button';
 import '@vaadin/combo-box';
