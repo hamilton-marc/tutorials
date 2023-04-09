@@ -1,7 +1,7 @@
 import { html } from 'lit';
-import { customElement } from 'lit/decorators.js';
+import { customElement } from 'lit/decorators';
 import '@vaadin/app-layout';
-import '@vaadin/app-layout/vaadin-drawer-toggle.js';
+import '@vaadin/app-layout/vaadin-drawer-toggle';
 import { Layout } from 'Frontend/views/view';
 import { views } from 'Frontend/routes';
 

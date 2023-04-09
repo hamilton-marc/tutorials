@@ -16,6 +16,14 @@ export const views: ViewRoute[] = [
     icon: 'file',
     title: 'Contacts',
   },
+  {
+    path: 'dashboard',
+    component: 'dashboard-view',
+    title: 'Dashboard',
+    action: async () => {
+      await import('./views/dashboard/dashboard-view');
+    },
+  }
 ];
 
 export const routes: ViewRoute[] = [
