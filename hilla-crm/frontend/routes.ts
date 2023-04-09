@@ -1,5 +1,6 @@
 import type { Route } from '@vaadin/router';
 import './views/list/list-view';
+import './main-layout';
 
 export type ViewRoute = Route & {
   title?: string;
@@ -13,7 +14,14 @@ export const views: ViewRoute[] = [
     path: '',
     component: 'list-view',
     icon: 'file',
-    title: 'list',
+    title: 'Contacts',
   },
 ];
-export const routes: ViewRoute[] = [...views];
+
+export const routes: ViewRoute[] = [
+  {
+    path: '',
+    component: 'main-layout',
+    children: views,
+  },
+];
