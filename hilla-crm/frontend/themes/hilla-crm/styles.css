@@ -2,6 +2,10 @@ list-view contact-form {
   width: 25em;
 }
 
+vaadin-app-layout header {
+  background-color: lightsteelblue;
+}
+
 [hidden] {
   display: none !important;
 }
