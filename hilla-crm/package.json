@@ -3,6 +3,7 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@adobe/lit-mobx": "2.0.0",
+    "@google-web-components/google-chart": "^5.0.3",
     "@hilla/form": "2.0.0",
     "@hilla/frontend": "2.0.0",
     "@hilla/generator-typescript-cli": "2.0.0",
@@ -185,7 +186,8 @@
     "@hilla/frontend": "$@hilla/frontend",
     "@hilla/form": "$@hilla/form",
     "@hilla/generator-typescript-plugin-backbone": "$@hilla/generator-typescript-plugin-backbone",
-    "@hilla/generator-typescript-cli": "$@hilla/generator-typescript-cli"
+    "@hilla/generator-typescript-cli": "$@hilla/generator-typescript-cli",
+    "@google-web-components/google-chart": "$@google-web-components/google-chart"
   },
   "vaadin": {
     "dependencies": {
@@ -287,6 +289,6 @@
       "workbox-core": "6.5.4",
       "workbox-precaching": "6.5.4"
     },
-    "hash": "162ddcf36b06c5c9a0fdd77c48547c57d7d44cebc239b215e569598579c2a20f"
+    "hash": "119d1bf6f3464f595930d7c189ef9a831abbdf71cb20883f59d702f2105eed76"
   }
 }
