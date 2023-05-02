@@ -8,12 +8,12 @@ import com.example.application.data.entity.Status;
 import com.example.application.data.repository.CompanyRepository;
 import com.example.application.data.repository.ContactRepository;
 import com.example.application.data.repository.StatusRepository;
-import com.vaadin.flow.server.auth.AnonymousAllowed;
 import dev.hilla.Endpoint;
 import dev.hilla.Nonnull;
+import jakarta.annotation.security.PermitAll;
 
 @Endpoint
-@AnonymousAllowed
+@PermitAll
 public class CrmEndpoint {
   private ContactRepository contactRepository;
   private CompanyRepository companyRepository;
