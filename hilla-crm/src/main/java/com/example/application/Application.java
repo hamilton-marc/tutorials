@@ -15,6 +15,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @Theme(value = "hilla-crm")
 public class Application implements AppShellConfigurator {
+    private static final long serialVersionUID = -5170116799200123108L;
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
